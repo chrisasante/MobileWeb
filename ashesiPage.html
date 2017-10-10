@@ -2,9 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>phonegap & jquery mobile boilerplate</title>
+    <title>Ashesi University College</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <link rel="stylesheet"  href="css/jquery.mobile.structure.css" />
     <link rel="stylesheet" href="css/jquery.mobile.theme.css" />
@@ -31,32 +37,44 @@
 </head>
 <body>
 
-<div data-role="page">
 
-    <div data-role="header">
+        
+<!--     <div data-role="header">
         <h1>Welcome To Ashesi University College</h1>
-    </div><!-- /header -->
+    </div><!-- /header --> 
+    <nav>
+    <div class="nav-wrapper" data-role="header">
+     <!--  <a href="#!" class="brand-logo">Logo</a>
+ -->  <a href="" data-activates="mobile-demo" class="button-collapse"><i class="material-icons"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="badmin.html">Business Admin</a></li>
+        <li><a href="cs.html">Computer Science</a></li>
+        <li><a href="mis.html">MIS</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="badmin.html">Business Admin</a></li>
+        <li><a href="cs.html">Computer Science</a></li>
+        <li><a href="mis.html">MIS</a></li>
+      </ul> 
+    </div>
+  </nav>
 
-    <div data-role="content">
+
         <h2>Our Mission</h2>
 
         <p>To educate ethical, entrepreneurial leaders in Africa; to cultivate within students,
             the critical thinking skills, concern for others, and the courage it will take to transform our continent.</p>
 
         <h2>Degree Programs</h2>
-        <p> BSc Business Administration</p>
-        <p> BSc Management Information Systems</p>
-        <p> BSc Computer Science</p>
-        <p> BSc Electrical and Electronic Engineering</p>
-        <p> BSc Computer Engineering</p>
-        <p> BSc Mechanical Engineering</p>
-    </div><!-- /content -->
+        <ul>
+        <li><a href="badmin.html"> BSc Business Administration </a></li>
+        <li><a href="mis.html"> BSc Management Information Systems</a></li>
+        <li><a href="cs.html"> BSc Computer Science</a></li>
+        <li><a href="eng.html"> BSc Electrical and Electronic Engineering</a></li>
+        <li> BSc Computer Engineering</li>
+        <li> BSc Mechanical Engineering</li>
+        </ul>
 
-    <div data-role="footer">
-        <h4>Footer content</h4>
-    </div><!-- /footer -->
-
-</div><!-- /page -->
 
 </body>
 </html>
